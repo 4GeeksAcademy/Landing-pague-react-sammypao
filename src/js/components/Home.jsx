@@ -11,10 +11,27 @@ const Home = () => {
 	return (
 		<>
 		<Navbar/>
-		<Usercard/>
-		<Jumbotron/>
+		<div className="container mt-8">
+				<Jumbotron/>
+				
+				<div className="row mt-4 mb-5">
+					<div className="col-12 col-sm-6 col-md-3 mb-4">
+						<Usercard/>
+					</div>
+					<div className="col-12 col-sm-6 col-md-3 mb-4">
+						<Usercard/>
+					</div>
+					<div className="col-12 col-sm-6 col-md-3 mb-4">
+						<Usercard/>
+					</div>
+					<div className="col-12 col-sm-6 col-md-3 mb-4">
+						<Usercard/>
+					</div>
+				</div>
+			</div>
 		</>
 	);
 };
+
 
 export default Home;
